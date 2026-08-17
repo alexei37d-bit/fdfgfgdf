@@ -36,7 +36,7 @@ TEXTS = {
             "{progress_bar}\n"
             "{current_rank} → {next_rank}\n\n"
             "<tg-emoji emoji-id=\"5452042536493288421\">📊</tg-emoji> Оборот — {turnover:.2f} 💰\n"
-            "<tg-emoji emoji-id=\"5451807640436903198\">🎰</tg-emoji Сыграно — {bets} ставок\n"
+            "<tg-emoji emoji-id=\"5451807640436903198\">🎰</tg-emoji> Сыграно — {bets} ставок\n"
             "<tg-emoji emoji-id=\"5312462735097764089\">👑</tg-emoji> Аккаунту — {days}</b></blockquote>"
         ),
         "chats": "<blockquote>🗨 Игровые чаты это отличное место чтобы найти друзей, обсудить игру или поднять денег в конкурсах и раздачах!</blockquote>",
@@ -159,41 +159,58 @@ TEXTS = {
             "{progress_bar}\n"
             "{current_rank} → {next_rank}\n\n"
             "<tg-emoji emoji-id=\"5452042536493288421\">📊</tg-emoji> Turnover — {turnover:.2f} 💰\n"
-"<tg-emoji emoji-id=\"5451807640436903198\">🎰</ tg-emoji Played — {bets} bets\n"
-"<tg-emoji emoji-id=\"5312462735097764089\">👑</ tg-emoji > Account — {days}</b></blockquote>"
+            "<tg-emoji emoji-id=\"5451807640436903198\">🎰</tg-emoji> Played — {bets} bets\n"
+            "<tg-emoji emoji-id=\"5312462735097764089\">👑</tg-emoji> Account — {days}</b></blockquote>"
         ),
-        "chats": "<blockquote > 🗨 game chats are a great place to find friends, discuss the game and raise money in contests and dazdaches!< / blockquote>",
-        "referral": (<BR > 
-            "<blockquote> re < B>Ref. System-3 urovnya< / b > < / blockquote>\n\n"
-            "1 <TG-emoji emoji-id=\"5451778692357327880\">📈</TG-emoji> 60 | / 0 <TG-emoji emoji-id=\"5452145345125456281\">🎁</TG-emoji> / 0.00 <TG-emoji emoji-id=\"5451754391432366821\">💰</TG-emoji> / 0.00 <TG-emoji emoji-id=\"5451754391432366821\">💰</TG-emoji > \n"
-            "2 <TG-emoji emoji-id=\"5451778692357327880\">📈</TG-emoji> 30 | / 0 <tg-emoji emoji-id=\"5452145345125456281\">🎁</TG-emoji> / 0.00 <TG-emoji emoji-id=\"5451754391432366821\">💰</TG-emoji> / 0.00 <TG-emoji emoji-id=\"5451754391432366821\">💰</TG-emoji > \n"
-            "3 <TG-emoji emoji-id=\"5451778692357327880\">📈</TG-emoji> 10 | / 0 <tg-emoji emoji-id=\"5452145345125456281\">🎁</TG-emoji> / 0.00 <TG-emoji emoji-id=\"5451754391432366821\">💰</TG-emoji> / 0.00 <TG-emoji emoji-id=\"5451754391432366821\">💰</TG-emoji>\n\n"
-            "<b > Your Sister < / B>\N"
-            f"<code>{REFERRAL_LINK_TEMPLATE} < / code>\n\n " < BR > 
-            "<b > total revenue< / b>\n" < BR > 
-            "0.00 <tg-emoji emoji-id=\"5451754391432366821\">💰</TG-emoji>"
+        "chats": "<blockquote>🗨 Game chats are a great place to find friends, discuss the game and raise money in contests and giveaways!</blockquote>",
+        "referral": (
+            "<blockquote>🐈‍⬛ <b>Ref. system — 3 levels</b></blockquote>\n\n"
+            "1 <tg-emoji emoji-id=\"5451778692357327880\">📈</tg-emoji> 60% | 0 <tg-emoji emoji-id=\"5452145345125456281\">🎁</tg-emoji> | 0.00 <tg-emoji emoji-id=\"5451754391432366821\">💰</tg-emoji> | 0.00 <tg-emoji emoji-id=\"5451754391432366821\">💰</tg-emoji>\n"
+            "2 <tg-emoji emoji-id=\"5451778692357327880\">📈</tg-emoji> 30% | 0 <tg-emoji emoji-id=\"5452145345125456281\">🎁</tg-emoji> | 0.00 <tg-emoji emoji-id=\"5451754391432366821\">💰</tg-emoji> | 0.00 <tg-emoji emoji-id=\"5451754391432366821\">💰</tg-emoji>\n"
+            "3 <tg-emoji emoji-id=\"5451778692357327880\">📈</tg-emoji> 10% | 0 <tg-emoji emoji-id=\"5452145345125456281\">🎁</tg-emoji> | 0.00 <tg-emoji emoji-id=\"5451754391432366821\">💰</tg-emoji> | 0.00 <tg-emoji emoji-id=\"5451754391432366821\">💰</tg-emoji>\n\n"
+            "<b>Your link</b>\n"
+            f"<code>{REFERRAL_LINK_TEMPLATE}</code>\n\n"
+            "<b>Total revenue</b>\n"
+            "0.00 <tg-emoji emoji-id=\"5451754391432366821\">💰</tg-emoji>"
         ),
-       "play": (
-            "<b><tg-emoji emoji-id=\"5452018153963948977\">💣</tg-emoji> Выбирайте мини-игру!</b>\n\n"
-            "<blockquote>Баланс — {balance:.2f} <tg-emoji emoji-id=\"5452157517062770940\">💸</tg-emoji>\n"
-            "Ставка — {bet:.2f} <tg-emoji emoji-id=\"5452157517062770940\">💸</tg-emoji></blockquote>\n\n"
-            "<i>Пополняй и сыграй на реальные деньги!</i>"
+        "play": (
+            "<b><tg-emoji emoji-id=\"5452018153963948977\">💣</tg-emoji> Choose a mini-game!</b>\n\n"
+            "<blockquote>Balance — {balance:.2f} <tg-emoji emoji-id=\"5452157517062770940\">💸</tg-emoji>\n"
+            "Bet — {bet:.2f} <tg-emoji emoji-id=\"5452157517062770940\">💸</tg-emoji></blockquote>\n\n"
+            "<i>Top up and play for real money!</i>"
         ),
-         "modes_menu": (
-            "<b><tg-emoji emoji-id=\"5452018153963948977\">💣</tg-emoji> Выбирайте мини-игру!</b>\n\n"
-            "<blockquote>Баланс — {balance:.2f} <tg-emoji emoji-id=\"5452157517062770940\">💸</tg-emoji>\n"
-            "Ставка — {bet:.2f} <tg-emoji emoji-id=\"5452157517062770940\">💸</tg-emoji></blockquote>\n\n"
-            "<i>Пополняй и сыграй на реальные деньги</i>"
+        "modes_menu": (
+            "<b><tg-emoji emoji-id=\"5452018153963948977\">💣</tg-emoji> Choose a mini-game!</b>\n\n"
+            "<blockquote>Balance — {balance:.2f} <tg-emoji emoji-id=\"5452157517062770940\">💸</tg-emoji>\n"
+            "Bet — {bet:.2f} <tg-emoji emoji-id=\"5452157517062770940\">💸</tg-emoji></blockquote>\n\n"
+            "<i>Top up and play for real money</i>"
         ),
-        "deposit_method": "💳 Choose deposit method",
-        "enter_deposit_amount": "💰 Enter deposit amount in <b>💰</b>\n\n<i>Minimum amount: {min_amount:.2f} 💰</i>",
-        "enter_withdraw_amount": "📥 Enter withdrawal amount in <b>💰</b>\n\n<i>Minimum amount: {min_amount:.2f} 💰</i>",
-        "deposit_created": "👇 Click below to top up your balance",
-        "check_payment": "🔄 Check Payment",
-        "payment_success": "✅ Balance successfully topped up by <b>{amount:.2f} 💰</b>!",
-        "payment_not_found": "❌ Payment not found. Please pay the invoice and click the button again.",
-        "error_min_deposit": "❌ Minimum deposit amount is {min_amount:.2f} 💰",
-        "error_min_withdraw": "❌ Minimum withdrawal amount is {min_amount:.2f} 💰",
+        "mines_main": (
+            "<b><tg-emoji emoji-id=\"5452018153963948977\">💣</tg-emoji> Mines</b>\n\n"
+            "Player #{player_id}\n"
+            "<blockquote><tg-emoji emoji-id=\"5451845260055450038\">💰</tg-emoji> Balance — {balance:,.2f} <tg-emoji emoji-id=\"5452157517062770940\">💸</tg-emoji>\n"
+            "Bet — {bet:,.2f} <tg-emoji emoji-id=\"5452157517062770940\">💸</tg-emoji></blockquote>\n\n"
+            "Selected — {mines} <tg-emoji emoji-id=\"5452018153963948977\">💣</tg-emoji>"
+        ),
+        "mines_select": (
+            "<tg-emoji emoji-id=\"5452018153963948977\">💣</tg-emoji><b>Select quantity</b>\n\n"
+            "Selected — <b>{mines}<tg-emoji emoji-id=\"5452018153963948977\">💣</tg-emoji></b>\n\n"
+            "<blockquote>{coefs}</blockquote>"
+        ),
+        "mines_playing": (
+            "<blockquote><b><tg-emoji emoji-id=\"5452018153963948977\">💣</tg-emoji>Mines · {mines} 🎀</b></blockquote>\n\n"
+            "<b>{bet:,.2f} <tg-emoji emoji-id=\"5452157517062770940\">💸</tg-emoji> × {coef:.2f} ➔ {win:,.2f} <tg-emoji emoji-id=\"5452157517062770940\">💸</tg-emoji></b>\n\n"
+            "<blockquote>{coefs}</blockquote>"
+        ),
+        "deposit_method": "<tg-emoji emoji-id=\"5451985838630014131\">💎</tg-emoji> Choose deposit method",
+        "enter_deposit_amount": "<tg-emoji emoji-id=\"5451985838630014131\">💎</tg-emoji> Enter deposit amount in <b><tg-emoji emoji-id=\"5452157517062770940\">💸</tg-emoji></b>\n\n<i>Minimum amount: {min_amount:.2f} <tg-emoji emoji-id=\"5452157517062770940\">💸</tg-emoji></i>",
+        "enter_withdraw_amount": "<tg-emoji emoji-id=\"5451985838630014131\">💎</tg-emoji> Enter withdrawal amount in <b><tg-emoji emoji-id=\"5452157517062770940\">💸</tg-emoji></b>\n\n<i>Minimum amount: {min_amount:.2f} <tg-emoji emoji-id=\"5452157517062770940\">💸</tg-emoji></i>",
+        "deposit_created": "<tg-emoji emoji-id=\"5303170015007119865\">⭐️</tg-emoji> Click below to top up your balance",
+        "check_payment": "Check Payment",
+        "payment_success": "<tg-emoji emoji-id=\"5264890676599884371\">🔼</tg-emoji> Balance successfully topped up by <b>{amount:.2f} 💰</b>!",
+        "payment_not_found": " Payment not found. Please pay the invoice and click the button again.",
+        "error_min_deposit": " Minimum deposit amount is {min_amount:.2f} 💰",
+        "error_min_withdraw": " Minimum withdrawal amount is {min_amount:.2f} 💰",
         "language_select": "🌐 Choose bot language",
         "privacy": (
             "<b>🥷 Privacy</b>\n\n"
@@ -206,12 +223,12 @@ TEXTS = {
         "nickname_updated": "✅ Pseudonym successfully updated!",
         "privacy_updated": "✅ Privacy settings updated!",
         "stats_text": (
-            "📊 <b>Statistics {name}</b>\n\n"
-            "🎮 Played — {bets} bets\n"
-            "📊 Turnover — {turnover:.2f} 💰\n"
-            "🕒 Account — {days} {days_label}\n\n"
-            "📥 Deposits — {deposits:.2f} 💰\n"
-            "📤 Withdrawals — {withdrawals:.2f} 💰"
+            "<tg-emoji emoji-id=\"5452042536493288421\">📊</tg-emoji> <b>Statistics {name}</b>\n\n"
+            "<tg-emoji emoji-id=\"5451811677706167149\">⚽️</tg-emoji> Played — {bets} bets\n"
+            "<tg-emoji emoji-id=\"5449624985301717991\">💳</tg-emoji> Turnover — {turnover:.2f} 💰\n"
+            "<tg-emoji emoji-id=\"5449880441366548359\">🃏</tg-emoji> Account — {days} {days_label}\n\n"
+            "<tg-emoji emoji-id=\"5264890676599884371\">🔼</tg-emoji> Deposits — {deposits:.2f} 💰\n"
+            "<tg-emoji emoji-id=\"5452147973645439296\">🔽</tg-emoji> Withdrawals — {withdrawals:.2f} 💰"
         ),
         "buttons": {
             "play": "🎮 Play",
